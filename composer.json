@@ -1,0 +1,21 @@
+{
+    "name": "uraankhay/yii2-ebay",
+    "description": "yii2 extension for ebay api",
+    "type": "library",
+    "keywords": ["yii2","extension"," ebay"," api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ayaal Uraankhay",
+            "email": "uraankhayayaal@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "uraankhay\\ebay\\": ""
+        }
+    }
+}

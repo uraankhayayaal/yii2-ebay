@@ -1,6 +1,6 @@
 <?php
 
-namespace uraankhay\ebay;
+namespace common\widgets\yii2ebay;
 
 /**
  * This is just an example.
@@ -9,6 +9,6 @@ class AutoloadExample extends \yii\base\Widget
 {
     public function run()
     {
-        return "Hello from Backend!";
+        return "Hello from Backend!!!";
     }
 }

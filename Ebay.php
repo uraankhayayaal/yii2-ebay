@@ -1,6 +1,6 @@
 <?php
 
-namespace common\widgets\yii2ebay;
+namespace uraankhay\ebay;
 
 /**
  * This is just an example.

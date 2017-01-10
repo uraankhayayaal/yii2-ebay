@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist uraankhay/yii2-ebay "*"
+php composer.phar require --prefer-dist uraankhay/yii2-ebay "@dev"
 ```
 
 or add
 
 ```
-"uraankhay/yii2-ebay": "*"
+"uraankhay/yii2-ebay": "@dev"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,4 +28,4 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \uraankhay\ebay\AutoloadExample::widget(); ?>```
+<?= \uraankhay\ebay\Ebay::widget(); ?>```
